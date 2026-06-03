@@ -1,0 +1,13 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'com.cvnss.bilakey'
+    compileSdk 35
+    defaultConfig {
+        applicationId 'com.cvnss.bilakey'
+        minSdk 23
+        targetSdk 35
+        versionCode 120
+        versionName '1.2.0-core-stable'
+    }
+}
